@@ -57,14 +57,14 @@ export const Card = () => {
     )
 }
 
-let minus = document.querySelectorAll('.button-close');
-minus.forEach((elem)=>{
-  elem.addEventListener('click',removeParent);
-});
-function removeParent(){
-    let revDiv = this.parentElement;
-    revDiv.remove();
-}
+// let minus = document.querySelectorAll('.button-close');
+// minus.forEach((elem)=>{
+//   elem.addEventListener('click',removeParent);
+// });
+// function removeParent(){
+//     let revDiv = this.parentElement;
+//     revDiv.remove();
+// }
 // // eslint-disable-next-line no-undef
 // $(document).navigateBack(function(){
 //     // eslint-disable-next-line no-undef
