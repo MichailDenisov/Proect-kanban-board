@@ -9,7 +9,6 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
-// import {Card} from "./components/board/card/card";
 import {Card} from "./component/board/card/card";
 
 const router = createBrowserRouter([
@@ -28,9 +27,9 @@ return (
     // eslint-disable-next-line react/jsx-no-undef
         <Layout>
             <Header/>
-            <main>
-                <RouterProvider router={router}/>
-            </main>
+                <main>
+                    <RouterProvider router={router}/>
+                </main>
             <Footer/>
         </Layout>
 

@@ -1,6 +1,6 @@
 import css from './card.module.scss';
 import {useParams, useNavigate} from 'react-router-dom'
-import {Button} from "../../shared/buttons/button";
+import {Button} from "../../shared/buttons/button/button";
 import {IconRemove} from "../../shared/icons/icon-remove";
 import {useTasks} from "../../../hooks/tasks/use-tasks";
 import {useEffect, useState} from "react";

@@ -76,9 +76,9 @@ export const Column = (props) => {
                         if (props.state === 'backlog') {
                             setIsNewTaskInputShown(false)
                             addTask(inputCardName);
-                            setInputCardName(false);
+                            setInputCardName(undefined);
                         } else {
-                            setIsNewTaskSelectShown(undefined);
+                            setIsNewTaskSelectShown(false);
                             moveTask(selectedTaskId, props.state);
                         }
                     }}

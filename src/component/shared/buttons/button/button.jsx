@@ -1,3 +1,4 @@
+// import {IconRemove} from "../../icons/icon-remove";
 import css from './button.module.scss'
 
 // const IconRemove => 
