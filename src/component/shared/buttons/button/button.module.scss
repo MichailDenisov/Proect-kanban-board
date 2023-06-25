@@ -1,5 +1,5 @@
 .button {
-  // display: none;
+  display: none;
   width: 24px;
     height: 24px;
     display: flex;
@@ -7,8 +7,10 @@
     justify-content: center;
     border-radius: 4px;
     cursor: pointer;
+    margin: -16px -1px 16px 291px;
   
     &:hover {
       background-color: #eaeaea;
+      // display: block;
     }
   }

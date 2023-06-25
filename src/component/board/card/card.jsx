@@ -4,7 +4,7 @@ import {Button} from "../../shared/buttons/button/button";
 import {IconRemove} from "../../shared/icons/icon-remove";
 import {useTasks} from "../../../hooks/tasks/use-tasks";
 import {useEffect, useState} from "react";
-// import {IconConfirm} from "../../shared/icons/icon-confirm";
+// import Scrollbars from "react-custom-scrollbars-2/";
 // import {IconConfirm} from "../../shared/icons/icon-confirm";
 
 
@@ -20,7 +20,9 @@ export const Card = () => {
         }
     }, [cardId, getTaskById])
 
-    const navigateBack = () => navigate(-1);
+    function navigateBack() {
+        return navigate(-1);
+    }
 
     return (
         <div className={css.card}>
@@ -57,19 +59,3 @@ export const Card = () => {
     )
 }
 
-// let minus = document.querySelectorAll('.button-close');
-// minus.forEach((elem)=>{
-//   elem.addEventListener('click',removeParent);
-// });
-// function removeParent(){
-//     let revDiv = this.parentElement;
-//     revDiv.remove();
-// }
-// // eslint-disable-next-line no-undef
-// $(document).navigateBack(function(){
-//     // eslint-disable-next-line no-undef
-//     $('body').on('click', '.button-close', function(){
-//       // eslint-disable-next-line no-undef
-//       $(this).hide();
-//     });
-//   });
